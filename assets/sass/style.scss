@@ -138,10 +138,6 @@ ul {
   background-color: $white-color;
 }
 
-.active {
-  @extend .nav__link:hover::after;
-}
-
 .nav__toggle {
   .bx-menu {
     font-size: 2rem;

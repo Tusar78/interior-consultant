@@ -138,7 +138,7 @@ ul {
   position: relative;
 }
 
-.nav__link:hover::after, .active {
+.nav__link:hover::after {
   position: absolute;
   content: "";
   width: 100%;
