@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:ital,wght@0,500;1,600&family=Montserrat:wght@400;500;700&display=swap");
 *,
 ::before,
 ::after {
@@ -92,6 +92,7 @@ ul {
   padding: 0.4rem;
   text-transform: uppercase;
   border: 1px solid #fff;
+  border-radius: 0.2rem;
 }
 
 @media screen and (max-width: 767.99px) {
@@ -157,4 +158,112 @@ ul {
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
+}
+
+.home {
+  row-gap: 2.5rem;
+}
+
+.home__title {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+
+.home__text {
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.home__more--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.home__more--link img {
+  width: 24px;
+  margin-left: 1rem;
+}
+
+.home__image-part {
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.home__image {
+  border-radius: 0.2rem;
+}
+
+.home__info {
+  width: 270px;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 1rem;
+  background-color: #181719;
+  padding: 1rem 1.25rem;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 12rem;
+  right: 1rem;
+}
+
+.home__info h3 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+}
+
+.home__info--layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__info--layout img {
+  margin-right: 0.875rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.home__info--layout h4 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0.15rem;
+}
+
+.home__info--layout span {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #828282;
+}
+
+.footer {
+  height: 2rem;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a9a9a9;
+  font-weight: 700;
+}
+
+.footer p a {
+  display: inline-block;
+  color: #9d4edd;
 }

@@ -88,6 +88,7 @@ ul {
   padding: 0.4rem;
   text-transform: uppercase;
   border: 1px solid $white-color;
+  border-radius: 0.2rem;
 }
 
 .nav__menu {
@@ -149,4 +150,103 @@ ul {
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
+}
+
+// Main area
+.home {
+  row-gap: 2.5rem;
+}
+
+.home__title {
+  font-family: $stylish-font;
+  font-weight: $medium-bold;
+  font-size: 2.25rem;
+}
+
+.home__text {
+  padding: 1.5rem 0;
+  font-size: $small-font-size;
+}
+
+.home__more--link {
+  display: flex;
+  align-items: center;
+  font-size: $small-font-size;
+  font-weight: $bold;
+  color: $white-color;
+
+  img {
+    width: 24px;
+    margin-left: 1rem;
+  }
+}
+
+.home__image-part {
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.home__image {
+  border-radius: 0.2rem;
+}
+
+.home__info {
+  width: 270px;
+  display: grid;
+  row-gap: 1rem;
+  background-color: $dark-color;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 12rem;
+  right: 1rem;
+
+  h3 {
+    font-family: $stylish-font;
+    font-weight: $medium-bold;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+  }
+}
+
+.home__info--layout {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 0.875rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  h4 {
+    font-size: 12px;
+    font-weight: $medium-bold;
+    margin-bottom: 0.15rem;
+  }
+
+  span {
+    display: block;
+    font-size: 0.625rem;
+    font-weight: $medium-bold;
+    color: $light-gray;
+  }
+}
+
+.footer {
+  height: 2rem;
+
+  p {
+    text-align: center;
+    font-size: $small-font-size;
+    color: $light-color;
+    font-weight: $bold;
+
+    a {
+      display: inline-block;
+      color: #9d4edd;
+    }
+  }
 }
