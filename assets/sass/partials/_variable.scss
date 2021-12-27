@@ -1,0 +1,28 @@
+// Add Font from fonts.google.com
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@400;500;700&display=swap");
+
+$header-height: 3rem;
+$extra-light: 200;
+$regular: 400;
+$medium-bold: 500;
+$bold: 700;
+
+// colors
+$dark-color: #181719;
+$light-gray: #828282;
+$light-color: #a9a9a9;
+$white-color: #fff;
+
+// Font & Typography
+$logo-font: "Crimson Pro", serif;
+$body-font: "Montserrat", sans-serif;
+$stylish-font: "Lora", serif;
+$big-font-size: 3rem;
+$medium-font-size: 1.5rem;
+$normal-font-size: 1.125rem;
+$small-font-size: 0.875rem;
+
+@media screen and (max-width: 768px) {
+    $big-font-size: calc(3rem - 0.625rem);
+    $big-font-size: calc(1.5rem - 0.375rem);
+}
