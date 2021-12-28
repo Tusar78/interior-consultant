@@ -293,6 +293,24 @@ ul {
   }
 
   .home__title {
+    font-size: 2.625rem;
+  }
+
+  .home__text {
+    font-size: $normal-font-size;
+  }
+
+  .home__more--link {
+    font-size: 1rem;
+  }
+
+  .home__image-part {
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 992.99px) {
+  .home__title {
     font-size: $big-font-size;
   }
 
