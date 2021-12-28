@@ -292,6 +292,10 @@ ul {
     align-items: center;
   }
 
+  .home__info {
+    right: 1rem;
+  }
+
   .home__title {
     font-size: 2.625rem;
   }
@@ -320,5 +324,9 @@ ul {
 
   .home__more--link {
     font-size: $normal-font-size;
+  }
+
+  .home__info {
+    right: 2rem;
   }
 }
