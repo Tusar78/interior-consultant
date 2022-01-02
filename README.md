@@ -1,4 +1,4 @@
-<h1 align="center">- My Team Page-</h1>
+<h1 align="center">- Interior Consultant-</h1>
 
 <div align="center">
   <h3>
